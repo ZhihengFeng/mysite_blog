@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4em;
+    width: 75%;
+    min-width: 600px;
+    justify-content: center;
+    margin-left: 3em;
+
+}
+.home-container .display-content {
+    flex-grow: 1;
+}
+.home-content {
+    font-size: 222%;
+    margin-bottom: 2em;
+    text-align: center;
+}
+div#container {
+    margin: 0 auto;
+    height: 20em;
+    min-width: 30em;
+    max-width: 50em;
+}
+div.hot-data {
+    min-width: 200px;
+    text-align: center;
+    margin-top: 2em;
+    margin-left: 1em;
+}
+div.hot-data li {
+    list-style-type: none;
+}
